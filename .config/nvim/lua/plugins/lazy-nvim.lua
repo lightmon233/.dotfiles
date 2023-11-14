@@ -70,5 +70,23 @@ require("lazy").setup({
   {
     "nvim-telescope/telescope.nvim", tag = "0.1.1",  -- 文件检索
     dependencies = { {'nvim-lua/plenary.nvim'} } -- 也可以{}
-  }
+  },
+
+    -- Github Copilot
+    "github/copilot.vim",
+
+    -- Indent Blankline
+    {
+        "lukas-reineke/indent-blankline.nvim",
+        main = "ibl",
+        opts = {}
+    },
+
+    -- fold 
+    'kevinhwang91/promise-async',
+    {
+        "kevinhwang91/nvim-ufo",
+        requires = 'kevinhwang91/promise-async',
+        run = ':TSUpdate'
+    }
 })
