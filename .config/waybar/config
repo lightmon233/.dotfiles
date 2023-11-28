@@ -94,7 +94,7 @@
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+        "on-click": "rofi -modi drun,run -show drun"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -135,6 +135,6 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/rofi/powermenu/type-2/powermenu.sh &"
+        "on-click": "pypr toggle volume"
     }
 }
