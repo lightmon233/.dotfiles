@@ -78,6 +78,7 @@ install_stage=(
     polkit-gnome # 图形化密码管理
     udiskie
     ueberzug # ranger需要它来预览图片
+    imagemagick # neofetch预览图片
 )
 
 # set some colors
