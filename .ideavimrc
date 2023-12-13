@@ -1,0 +1,42 @@
+set relativenumber
+set number
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+
+set nowrap
+
+set cursorline
+
+set mouse=a
+
+set clipboard+=unnamedplus
+
+set splitright
+set splitbelow
+
+set ignorecase
+set smartcase
+
+set termguicolors
+set signcolumn=yes
+colorscheme tokyonight-moon
+
+let mapleader = " "
+
+imap jk <ESC>
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+nnoremap <leader>sv <C-w>v
+nnoremap <leader>sh <C-w>s
+
+nnoremap <leader>nh :nohl<CR>
+
+nnoremap <C-L> :bnext<CR>
+nnoremap <C-H> :bprevious<CR>
+
+nnoremap <leader>e :NvimTreeToggle<CR>
