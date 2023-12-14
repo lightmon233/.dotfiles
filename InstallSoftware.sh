@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #the main packages
 install_stage=(
     cava
@@ -78,7 +77,8 @@ install_stage=(
     polkit-gnome # 图形化密码管理
     udiskie
     ueberzug # ranger需要它来预览图片
-    imagemagick # neofetch预览图片
+
+    shellcheck # neovim 需要它来检查shell脚本
 )
 
 # set some colors
@@ -167,3 +167,4 @@ read -rep $'[\e[1;33mACTION\e[0m] - Would you like to copy config files? (y,n) '
 if [[ $CFG == "Y" || $CFG == "y" ]]; then
     echo -e "$CNT - Copying config files..."
 fi
+

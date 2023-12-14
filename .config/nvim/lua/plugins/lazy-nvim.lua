@@ -88,5 +88,8 @@ require("lazy").setup({
         "kevinhwang91/nvim-ufo",
         requires = 'kevinhwang91/promise-async',
         run = ':TSUpdate'
-    }
+    },
+
+    -- rainbow
+    'hiphish/rainbow-delimiters.nvim',
 })
