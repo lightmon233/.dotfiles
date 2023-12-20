@@ -5,7 +5,8 @@
     "height": 34,
     "modules-left": [
         "custom/logo",
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/cava-internal"
     ],
     "modules-center": [
         "clock"
@@ -46,9 +47,7 @@
         "persistent_workspaces": {
             "1": [],
             "2": [],
-            "3": [],
-            "4": [],
-            "5": []
+            "3": []
         }
     },
     "memory": {
@@ -135,6 +134,10 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "pypr toggle volume"
+        "on-click": "wlogout"
+    },
+    "custom/cava-internal": {
+        "exec": "~/.config/waybar/cava-internal.sh",
+        "tooltip": false
     }
 }
