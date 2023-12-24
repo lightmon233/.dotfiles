@@ -77,7 +77,6 @@ install_stage=(
     polkit-gnome # 图形化密码管理
     udiskie
     ueberzug # ranger需要它来预览图片
-
     shellcheck # neovim 需要它来检查shell脚本
 )
 
@@ -166,5 +165,14 @@ fi
 read -rep $'[\e[1;33mACTION\e[0m] - Would you like to copy config files? (y,n) ' CFG
 if [[ $CFG == "Y" || $CFG == "y" ]]; then
     echo -e "$CNT - Copying config files..."
+    
+    # installing sddm theme(sddm-sugar-candy)
+    git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git ~/sddm-sugar-candy
+    cp -r ~/sddm-sugar-candy /usr/share/sddm/themes/
+    touch /etc/sddm.conf
+    echo "[Theme]" >> /etc/sddm.conf
+    echo "Current=sddm-sugar-candy" >> /etc/sddm.conf
+
+    echo -e "$CNT - Copying successful!"
 fi
 
