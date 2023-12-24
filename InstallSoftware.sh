@@ -165,6 +165,12 @@ fi
 read -rep $'[\e[1;33mACTION\e[0m] - Would you like to copy config files? (y,n) ' CFG
 if [[ $CFG == "Y" || $CFG == "y" ]]; then
     echo -e "$CNT - Copying config files..."
+
+    # coping wallpapers
+    mkdir -p ~/Backgrounds
+    cp -r ./Backgrounds/ ~/Backgrounds/
+    mkdir -p ~/Lockscreens
+    cp -r ./Lockscreens/ ~/Lockscreens/
     
     # installing sddm theme(sddm-sugar-candy)
     git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git ~/sddm-sugar-candy
@@ -172,6 +178,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     touch /etc/sddm.conf
     echo "[Theme]" >> /etc/sddm.conf
     echo "Current=sddm-sugar-candy" >> /etc/sddm.conf
+    sed -i '3s/Mountain.jpg/~\/Backgrounds\/wallhaven-vmyzkl.jpg/' /usr/share/sddm/themes/sddm-sugar-candy/theme.conf
 
     echo -e "$CNT - Copying successful!"
 fi
