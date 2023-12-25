@@ -78,6 +78,8 @@ install_stage=(
     udiskie
     ueberzug # ranger需要它来预览图片
     shellcheck # neovim 需要它来检查shell脚本
+    w3m 
+    imagemagick
 )
 
 # set some colors
