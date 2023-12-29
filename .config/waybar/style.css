@@ -31,11 +31,14 @@ window#waybar.hidden {
   /* background-color: #1e1e2e; */
   background: transparent;
   color: #cdd6f4;
+  text-shadow: 0 0 2px #000000;
 }
 
 #workspaces button.active {
   color: #1e1e2e;
   background-color: #cdd6f4;
+    text-shadow: inherit;
+    box-shadow: 0 0 3px #1e1e2e;
 }
 
 #workspaces button:hover {
@@ -43,10 +46,13 @@ window#waybar.hidden {
  text-shadow: inherit;
  color: #1e1e2e;
  background-color: #cdd6f4;
+    box-shadow: 0 0 3px #1e1e2e;
 }
 
 #workspaces button.urgent {
   background-color: #f38ba8;
+    text-shadow: inherit;
+    box-shadow: 0 0 3px #1e1e2e;
 }
 
 #memory,
@@ -56,12 +62,14 @@ window#waybar.hidden {
 #pulseaudio,
 #network,
 #clock,
+#custom-cava-internal,
 #tray {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
   background-color: #1e1e2e;
   color: #181825;
+    box-shadow: 0 0 3px #1e1e2e;
 }
 
 #custom-power {
@@ -75,6 +83,7 @@ window#waybar.hidden {
   font-size: 15px;
   border-radius: 8px 0px 0px 8px;
   color: #1793d1;
+    text-shadow: 0 0 2px #000000;
 }
 
 #memory {
