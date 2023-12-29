@@ -87,10 +87,10 @@ window#waybar.hidden {
 }
 
 #memory {
-  background-color: #fab387;
+  background-color: #cdd6f4;
 }
 #battery {
-  background-color: #f38ba8;
+  background-color: #cdd6f4;
 }
 @keyframes blink {
   to {
@@ -119,11 +119,11 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  background-color: #f9e2af;
+  background-color: #cdd6f4;
 }
 
 #network {
-  background-color: #94e2d5;
+  background-color: #cdd6f4;
   padding-right: 17px;
 }
 
@@ -133,7 +133,10 @@ window#waybar.hidden {
 }
 
 #custom-power {
-  background-color: #f2cdcd;
+    box-shadow: inherit;
+    text-shadow: 0 0 2px #000000;
+  background: transparent;
+    color: #ff0000;
 }
 
 
