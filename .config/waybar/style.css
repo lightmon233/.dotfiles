@@ -38,7 +38,7 @@ window#waybar.hidden {
   color: #1e1e2e;
   background-color: #cdd6f4;
     text-shadow: inherit;
-    box-shadow: 0 0 3px #1e1e2e;
+    box-shadow: 0 0 3px #cdd6f4;
 }
 
 #workspaces button:hover {
@@ -46,13 +46,13 @@ window#waybar.hidden {
  text-shadow: inherit;
  color: #1e1e2e;
  background-color: #cdd6f4;
-    box-shadow: 0 0 3px #1e1e2e;
+    box-shadow: 0 0 3px #cdd6f4;
 }
 
 #workspaces button.urgent {
   background-color: #f38ba8;
     text-shadow: inherit;
-    box-shadow: 0 0 3px #1e1e2e;
+    box-shadow: 0 0 3px #cdd6f4;
 }
 
 #memory,
@@ -69,7 +69,7 @@ window#waybar.hidden {
   padding: 6px 12px;
   background-color: #1e1e2e;
   color: #181825;
-    box-shadow: 0 0 3px #1e1e2e;
+    box-shadow: 0 0 3px #cdd6f4;
 }
 
 #custom-power {
@@ -83,7 +83,11 @@ window#waybar.hidden {
   font-size: 15px;
   border-radius: 8px 0px 0px 8px;
   color: #1793d1;
-    text-shadow: 0 0 2px #000000;
+    text-shadow: 0 0 5px #1793d1;
+}
+
+#tray {
+    box-shadow: 0 0 3px #1e1e2e;
 }
 
 #memory {
@@ -130,11 +134,12 @@ window#waybar.hidden {
 #clock {
   font-family: JetBrainsMono Nerd Font;
   background-color: #cba6f7;
+    box-shadow: 0 0 3px #cba6f7;
 }
 
 #custom-power {
     box-shadow: inherit;
-    text-shadow: 0 0 2px #000000;
+    text-shadow: 0 0 5px #ff0000;
   background: transparent;
     color: #ff0000;
 }
@@ -158,4 +163,5 @@ background-color: #131822;
     margin: 6px 3px;
     padding: 6px 12px;
     background-color: #1e1e2e;
+    box-shadow: 0 0 3px #1e1e2e;
 }
