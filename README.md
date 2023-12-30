@@ -34,6 +34,10 @@ GPU 2: NVIDIA P106-100
 
 Memory: 4.77 GiB / 15.49 GiB (31%)
 
+----------------
+
+Lenovo Thinkpad X230 2GiB ram version
+
 ### 说明：
 
 `.config`文件夹中为几乎全部的配置文件，`InstallSoftware.sh`为自动安装软件的脚本。
