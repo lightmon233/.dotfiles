@@ -16,7 +16,7 @@
 
 ### 预览：
 
-![预览图](https://i2.100024.xyz/2023/12/24/xn0kzc.webp)
+![预览图](https://github.com/lightmon233/.dotfiles/blob/main/preview.png)
 
 ### 已经测试OK的环境：
 ---------------
