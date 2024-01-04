@@ -63,6 +63,7 @@ window#waybar.hidden {
 #network,
 #clock,
 #custom-cava-internal,
+#custom-power,
 #tray {
   border-radius: 4px;
   margin: 6px 3px;
@@ -73,7 +74,7 @@ window#waybar.hidden {
 }
 
 #custom-power {
-  margin-right: 6px;
+  margin-right: 16px;
 }
 
 #custom-logo {
@@ -138,10 +139,9 @@ window#waybar.hidden {
 }
 
 #custom-power {
-    box-shadow: inherit;
-    text-shadow: 0 0 5px #ff0000;
-  background: transparent;
-    color: #ff0000;
+    box-shadow: 0 0 3px #ffc0cb;
+    text-shadow: none;
+    background-color: #ffc0cb;
 }
 
 
