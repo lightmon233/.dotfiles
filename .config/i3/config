@@ -197,13 +197,16 @@ bindsym $mod+r exec --no-startup-id "rofi -modi drun,run -show drun"
 exec --no-startup-id picom -b
 exec --no-startup-id feh --randomize --bg-fill ~/Backgrounds
 
+bindsym $mod+b exec --no-startup-id "feh --randomize --bg-fill ~/Backgrounds"
+bindsym Super+Shift+s exec --no-startup-id "flameshot gui"
+
 exec_always --no-startup-id fcitx5
 
 gaps inner 10
 gaps outer 10
 smart_gaps on
 
-bindsym $mod+Ctrl+l exec --no-startup-id i3lock
+bindsym $mod+Ctrl+l exec --no-startup-id "i3lock -i ~/Lockscreens/wallhaven-wyv286.png"
 
 for_window [class="^.*"] border pixel 0
 

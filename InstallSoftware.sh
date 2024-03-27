@@ -84,6 +84,7 @@ install_stage=(
     i3lock 
     polybar
     optimus-manager
+    flameshot
 )
 
 # set some colors
