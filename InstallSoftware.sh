@@ -80,6 +80,9 @@ install_stage=(
     shellcheck # neovim 需要它来检查shell脚本
     w3m 
     imagemagick
+    i3-gaps
+    i3lock 
+    polybar
 )
 
 # set some colors
