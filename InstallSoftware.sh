@@ -83,6 +83,7 @@ install_stage=(
     i3-gaps
     i3lock 
     polybar
+    optimus-manager
 )
 
 # set some colors
