@@ -198,7 +198,7 @@ exec --no-startup-id picom -b
 exec --no-startup-id feh --randomize --bg-fill ~/Backgrounds
 
 bindsym $mod+b exec --no-startup-id "feh --randomize --bg-fill ~/Backgrounds"
-bindsym Super+Shift+s exec --no-startup-id "flameshot gui"
+bindsym Mod4+Shift+s exec --no-startup-id "flameshot gui"
 
 exec_always --no-startup-id fcitx5
 
