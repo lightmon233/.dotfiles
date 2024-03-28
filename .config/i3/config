@@ -107,7 +107,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+bindsym $mod+p focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -213,3 +213,13 @@ for_window [class="^.*"] border pixel 0
 new_window pixel 1
 
 exec --no-startup-id ~/.config/polybar/launch.sh --hack
+
+# drop down terminal
+
+for_window [instance="dropdown"] floating enable
+for_window [instance="dropdown"] resize set 1200 800
+for_window [instance="dropdown"] move scratchpad
+for_window [instance="dropdown"] border pixel 3
+exec_always --no-startup-id kitty --name dropdown
+
+bindsym $mod+a [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
