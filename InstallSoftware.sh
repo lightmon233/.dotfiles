@@ -85,6 +85,7 @@ install_stage=(
     polybar
     optimus-manager
     flameshot
+    mpd
 )
 
 # set some colors
