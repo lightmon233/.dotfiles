@@ -86,6 +86,8 @@ install_stage=(
     optimus-manager
     flameshot
     mpd
+    envycontrol # switch gpu in wayland mode
+    linux-zen-headers # required when u use dkms to install nvidia modules
 )
 
 # set some colors
