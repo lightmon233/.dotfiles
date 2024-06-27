@@ -34,7 +34,6 @@ install_stage=(
     shotgun
     zsh
     noto-fonts-emoji
-    mako 
     waybar
     swww 
     swaylock
